@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="ChartViewStyle">
+        <attr name="graphTitle" format="string|reference"/>
+        <attr name="xAxisName" format="string|reference"/>
+        <attr name="yAxisName" format="string|reference"/>
+        <attr name="textColor" format="color|integer"/>
+        <attr name="textSize" format="dimension"/>
+
+    </declare-styleable>
+</resources>
